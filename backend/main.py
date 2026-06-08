@@ -13,7 +13,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://ai-powered-placement-preparation-platform-ewnp00uu1.vercel.app"
+        "https://ai-powered-placement-preparation-platform-qv1ws3no5.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
