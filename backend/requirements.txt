@@ -1,8 +1,8 @@
 fastapi
 uvicorn
-requests
-google-generativeai
-supabase
 python-multipart
+requests
+supabase
 pdfplumber
 python-dotenv
+google-genai
