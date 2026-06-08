@@ -96,7 +96,7 @@ export default function CodingInterview() {
     setCustomInput("");
 
     try {
-      const res = await fetch("http://localhost:5000/api/coding/generate", {
+      const res = await fetch("https://ai-powered-placement-preparation-platform-production.up.railway.app/api/coding/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ topic, difficulty, language }),
@@ -138,7 +138,7 @@ export default function CodingInterview() {
     setRunResult(null);
 
     try {
-      const res = await fetch("http://localhost:5000/api/code/run", {
+      const res = await fetch("https://ai-powered-placement-preparation-platform-production.up.railway.app/api/code/run", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -180,7 +180,7 @@ export default function CodingInterview() {
     setChecking(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/coding/feedback", {
+      const res = await fetch("https://ai-powered-placement-preparation-platform-production.up.railway.app/api/coding/feedback", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

@@ -65,7 +65,7 @@ export default function ATSChecker() {
       formData.append("file", file);
       formData.append("jobDescription", jobDescription);
 
-      const response = await fetch("http://localhost:5000/api/ats/check", {
+      const response = await fetch("https://ai-powered-placement-preparation-platform-production.up.railway.app/api/ats/check", {
         method: "POST",
         body: formData,
       });

@@ -185,7 +185,7 @@ export default function MockInterview() {
     setCurrentQuestionIndex(0);
 
     try {
-      const response = await fetch("http://localhost:5000/api/interview/start", {
+      const response = await fetch("https://ai-powered-placement-preparation-platform-production.up.railway.app/api/interview/start", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -235,7 +235,7 @@ export default function MockInterview() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/interview/feedback",
+        "https://ai-powered-placement-preparation-platform-production.up.railway.app/api/interview/feedback",
         {
           method: "POST",
           headers: {
@@ -289,7 +289,7 @@ export default function MockInterview() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/interview/final-report",
+        "https://ai-powered-placement-preparation-platform-production.up.railway.app/api/interview/final-report",
         {
           method: "POST",
           headers: {

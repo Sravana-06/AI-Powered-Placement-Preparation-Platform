@@ -50,7 +50,7 @@ export default function ResumeUploader() {
       const formData = new FormData();
       formData.append("file", file);
 
-      const response = await fetch("http://localhost:5000/api/resume/upload", {
+      const response = await fetch("https://ai-powered-placement-preparation-platform-production.up.railway.app/api/resume/upload", {
         method: "POST",
         body: formData,
       });
