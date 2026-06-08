@@ -1,56 +1,67 @@
-# AI-Powered Placement Preparation Platform
+# 🚀 PrepAI – AI-Powered Placement Preparation Platform
 
-An AI-powered career preparation platform designed to help students and job seekers improve their placement readiness through resume analysis, ATS scoring, mock interviews, coding practice, and performance tracking.
+PrepAI is an intelligent placement preparation platform that helps students improve their interview performance, optimize resumes, evaluate ATS compatibility, and practice coding interviews through AI-driven feedback.
 
-## Features
+Designed with modern web technologies and Generative AI, PrepAI provides a realistic interview preparation experience for students preparing for internships and full-time opportunities.
 
-### Resume Analyzer
+---
 
-* Upload resumes
-* AI-powered feedback
-* Skill gap identification
-* Improvement suggestions
+## 🌐 Live Demo
 
-### ATS Checker
+**Frontend:** https://prepai-ai-platform.vercel.app
 
-* ATS compatibility score
-* Keyword matching
-* Missing keyword detection
-* Resume optimization recommendations
+**Backend API:** https://ai-powered-placement-preparation-platform-production.up.railway.app
 
-### Mock Interview
+---
+
+## ✨ Key Features
+
+### 📄 Resume Analyzer
+
+* Upload PDF resumes
+* AI-powered resume evaluation
+* Strength and weakness identification
+* Resume improvement suggestions
+* Industry-focused recommendations
+
+### 🎯 ATS Score Checker
+
+* ATS compatibility analysis
+* Keyword optimization suggestions
+* Missing skills detection
+* Resume enhancement recommendations
+
+### 🎤 AI Mock Interview
 
 * AI-generated interview questions
-* Voice interview support
-* Communication analysis
-* Confidence evaluation
-* Interview performance reports
+* Technical interview preparation
+* HR interview preparation
+* Answer analysis and feedback
+* Performance evaluation reports
 
-### Coding Practice
+### 💻 Coding Practice
 
-* Topic-based coding questions
+* AI-generated coding challenges
 * Multiple difficulty levels
-* Code execution support
-* AI feedback and analysis
+* Python, Java, C++, and C support
+* Real-time code execution
+* AI-based solution feedback
 
-### Performance History
+### 🤖 Personalized Feedback
 
-* Resume score tracking
-* ATS score tracking
-* Interview performance tracking
-* Coding performance tracking
+* Detailed performance insights
+* Improvement recommendations
+* Strength and weakness analysis
+* Placement readiness assessment
 
-### Authentication
+---
 
-* Secure login and signup
-* Supabase authentication
-* User-specific data storage
-
-## Technology Stack
+## 🛠️ Technology Stack
 
 ### Frontend
 
 * Next.js
+* React
 * TypeScript
 * Tailwind CSS
 
@@ -58,29 +69,153 @@ An AI-powered career preparation platform designed to help students and job seek
 
 * FastAPI
 * Python
+* Uvicorn
+
+### AI Services
+
+* Google Gemini API
 
 ### Database
 
 * Supabase
 
-### AI Services
+### Code Execution
 
-* Google Gemini AI
+* Judge0 API
 
-## Project Structure
+### Deployment
+
+* Vercel
+* Railway
+
+---
+
+## 🏗️ Architecture
+
+Frontend (Next.js)
+↓
+FastAPI Backend
+↓
+Google Gemini AI
+↓
+Supabase Database
+↓
+Judge0 Code Execution Engine
+
+---
+
+## 📂 Project Structure
 
 AI-Powered-Placement-Preparation-Platform
 
-* frontend/
-* backend/
+├── frontend/
 
-## Future Improvements
+│   ├── app/
 
-* Advanced analytics dashboard
-* Real-time notifications
-* Personalized learning paths
-* Deployment monitoring
+│   ├── components/
 
-## Author
+│   ├── public/
 
-Sravana Lakshmi Majji
+│   └── styles/
+
+│
+
+├── backend/
+
+│   ├── routes/
+
+│   ├── services/
+
+│   ├── models/
+
+│   ├── main.py
+
+│   └── requirements.txt
+
+│
+
+└── README.md
+
+---
+
+## ⚙️ Local Setup
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Sravana-06/AI-Powered-Placement-Preparation-Platform.git
+
+cd AI-Powered-Placement-Preparation-Platform
+```
+
+### Frontend
+
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+```
+
+---
+
+## 📌 Core Modules
+
+### 📄 Resume Analyzer
+
+Upload a resume and receive AI-powered feedback on strengths, weaknesses, missing skills, and overall resume quality to improve job readiness.
+
+### 🎯 ATS Score Checker
+
+Analyze resume compatibility with Applicant Tracking Systems (ATS) and receive recommendations to improve visibility during the recruitment process.
+
+### 🎤 AI Mock Interview
+
+Practice technical and HR interviews through AI-generated questions and receive detailed feedback to improve communication and interview performance.
+
+### 💻 Coding Practice
+
+Solve coding challenges with real-time code execution and AI-driven feedback to strengthen problem-solving and programming skills.
+
+### 📊 Performance Analytics
+
+Track performance across different modules and monitor progress throughout the placement preparation journey.
+
+
+---
+
+## 🎯 Future Enhancements
+
+* Voice-based interview simulation
+* Speech analysis
+* Emotion detection
+* Interview recording
+* User authentication
+* Progress tracking dashboard
+* Personalized career guidance
+* Company-specific interview preparation
+
+---
+
+## 📚 Project Usage
+
+This project is developed for educational, learning, and placement preparation purposes. It is intended to help students enhance their interview readiness, resume quality, coding skills, and overall placement performance using AI-powered tools.
+
+---
+
+## 👨‍💻 Developer
+
+**Sravana Lakshmi Majji**
+
+GitHub: https://github.com/Sravana-06
