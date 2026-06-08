@@ -1,7 +1,8 @@
 fastapi
 uvicorn
-python-multipart
-google-generativeai
 requests
+google-generativeai
 supabase
+python-multipart
 pdfplumber
+python-dotenv
