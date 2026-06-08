@@ -12,8 +12,8 @@ app = FastAPI(title="PrepAI Python Backend")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-    "http://localhost:3000",
-    "https://your-frontend-url.vercel.app"
+        "http://localhost:3000",
+        "https://ai-powered-placement-preparation-platform-ewnp00uu1.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
